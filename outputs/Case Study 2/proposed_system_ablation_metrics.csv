@@ -1,0 +1,4 @@
+﻿bleu,bleu1,bleu2,bleu3,bleu4,rouge1,rouge2,rougeL,rouge,meteor,chrfpp,wer,wil,bertscore_f1,system,dialect,n_samples
+60.0249,75.9532,69.3604,64.2729,60.0249,59.0991,37.1618,59.1287,51.7965,52.6561,65.5553,0.4122,0.6182,92.2022,FT-NLLB_Adaptive-RAG+Verifier ,chittagonian,787
+51.1381,70.4068,62.3217,56.159,51.1381,52.5836,29.7659,52.5114,44.9536,45.4055,57.7922,0.4815,0.6946,90.4173,FT-NLLB_Adaptive-RAG+Verifier,sylheti,917
+55.457,73.1181,65.7445,60.1003,55.457,55.584,33.151,55.5688,48.1012,48.7542,61.462,0.449,0.6598,91.2417,FT-NLLB_Adaptive-RAG+Verifier,overall,1704
