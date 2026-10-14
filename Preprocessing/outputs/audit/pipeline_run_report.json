@@ -1,0 +1,65 @@
+{
+  "config": {
+    "thresholds": {
+      "min_length_ratio": 0.33,
+      "max_length_ratio": 3.0,
+      "near_dup_similarity_threshold": 0.92,
+      "minhash_num_perm": 128,
+      "minhash_shingle_size": 4,
+      "lsh_threshold": 0.85,
+      "train_ratio": 0.8,
+      "val_ratio": 0.1,
+      "test_ratio": 0.1,
+      "random_seed": 42,
+      "leakage_jaccard_threshold": 0.7,
+      "char_ngram_n": 4,
+      "word_ngram_n": 2,
+      "bm25_k1": 1.5,
+      "bm25_b": 0.75
+    },
+    "schema": {
+      "standard_col": "standard_bangla",
+      "english_col": "translated_english",
+      "dialect_text_col": "dialect_text",
+      "dialect_name_col": "dialect_name",
+      "raw_standard_col": "Standard Bangla",
+      "raw_english_col": "Translated English"
+    }
+  },
+  "stages": {
+    "chittagonian": {
+      "n_raw": 8009,
+      "n_after_quality_filter": 7915,
+      "n_identity_flagged": 92,
+      "n_after_exact_dedup": 7914,
+      "n_after_near_dedup": 7871,
+      "total_dropped": 46
+    },
+    "sylheti": {
+      "n_raw": 9320,
+      "n_after_quality_filter": 9197,
+      "n_identity_flagged": 117,
+      "n_after_exact_dedup": 9191,
+      "n_after_near_dedup": 9169,
+      "total_dropped": 34
+    }
+  },
+  "splits": {
+    "train": 13680,
+    "val": 1693,
+    "test": 1667
+  },
+  "leakage": {
+    "exact_match_leakage_count": 0,
+    "exact_match_leakage_pct": 0.0,
+    "flagged_test_rows": 8
+  },
+  "anomaly_counts": {
+    "nfc_normalized_chars": 494512,
+    "nukta_decompositions_unified": 30407,
+    "khanda_ta_normalized": 20,
+    "hyphenated_linebreaks_reconnected": 14,
+    "stray_zwj_zwnj_stripped": 1,
+    "orphan_matras_removed": 38
+  }
+}
