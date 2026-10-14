@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Institution: HSTU](https://img.shields.io/badge/Institution-HSTU%20ECE-teal)](https://hstu.ac.bd/)
 
-> **Undergraduate Thesis (Course No.: ECE 452)**  
+> **Undergraduate Thesis (Course Code: ECE 452)**  
 > Department of Electronics and Communication Engineering  
 > **Hajee Mohammad Danesh Science and Technology University (HSTU)**, Dinajpur-5200, Bangladesh  
 > *October 2026*
